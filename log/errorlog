@@ -1,0 +1,114 @@
+2022-07-12 16:14:35.88 Server      Microsoft SQL Server 2019 (RTM-CU16-GDR) (KB5014353) - 15.0.4236.7 (X64) 
+	May 29 2022 15:55:47 
+	Copyright (C) 2019 Microsoft Corporation
+	Developer Edition (64-bit) on Linux (Ubuntu 20.04.4 LTS) <X64>
+2022-07-12 16:14:35.88 Server      UTC adjustment: 0:00
+2022-07-12 16:14:35.88 Server      (c) Microsoft Corporation.
+2022-07-12 16:14:35.88 Server      All rights reserved.
+2022-07-12 16:14:35.88 Server      Server process ID is 388.
+2022-07-12 16:14:35.88 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2022-07-12 16:14:35.88 Server      Registry startup parameters: 
+	 -d /var/opt/mssql/data/master.mdf
+	 -l /var/opt/mssql/data/mastlog.ldf
+	 -e /var/opt/mssql/log/errorlog
+2022-07-12 16:14:35.90 Server      SQL Server detected 1 sockets with 4 cores per socket and 8 logical processors per socket, 8 total logical processors; using 8 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2022-07-12 16:14:35.90 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2022-07-12 16:14:35.90 Server      Detected 4848 MB of RAM. This is an informational message; no user action is required.
+2022-07-12 16:14:35.90 Server      Using conventional memory in the memory manager.
+2022-07-12 16:14:35.91 Server      Page exclusion bitmap is enabled.
+2022-07-12 16:14:35.95 Server      Buffer pool extension is not supported on Linux platform.
+2022-07-12 16:14:35.95 Server      Buffer Pool: Allocating 1048576 bytes for 696265 hashPages.
+2022-07-12 16:14:36.06 Server      Buffer pool extension is already disabled. No action is necessary.
+2022-07-12 16:14:36.28 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2022-07-12 16:14:36.31 Server      Query Store settings initialized with enabled = 1, 
+2022-07-12 16:14:36.32 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2022-07-12 16:14:36.32 Server      Node configuration: node 0: CPU mask: 0x00000000000000ff:0 Active CPU mask: 0x00000000000000ff:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2022-07-12 16:14:36.34 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2022-07-12 16:14:36.35 Server      In-Memory OLTP initialized on lowend machine.
+2022-07-12 16:14:36.45 Server      [INFO] Created Extended Events session 'hkenginexesession'
+2022-07-12 16:14:36.45 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2022-07-12 16:14:36.46 Server      Total Log Writer threads: 2. This is an informational message; no user action is required.
+2022-07-12 16:14:36.48 Server      clwb is selected for pmem flush operation.
+2022-07-12 16:14:36.48 Server      Software Usage Metrics is disabled.
+2022-07-12 16:14:36.51 spid9s      [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2022-07-12 16:14:36.51 spid9s      Starting up database 'master'.
+2022-07-12 16:14:36.59 Server      CLR version v4.0.30319 loaded.
+2022-07-12 16:14:36.88 Server      Common language runtime (CLR) functionality initialized.
+2022-07-12 16:14:37.10 spid9s      Resource governor reconfiguration succeeded.
+2022-07-12 16:14:37.10 spid9s      SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2022-07-12 16:14:37.10 spid9s      SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2022-07-12 16:14:37.28 spid9s      SQL Trace ID 1 was started by login "sa".
+2022-07-12 16:14:37.29 spid9s      Server name is 'f7b01cafa8cc'. This is an informational message only. No user action is required.
+2022-07-12 16:14:37.31 spid29s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2022-07-12 16:14:37.31 spid30s     [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2022-07-12 16:14:37.31 spid31s     [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2022-07-12 16:14:37.31 spid12s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2022-07-12 16:14:37.31 spid30s     Starting up database 'msdb'.
+2022-07-12 16:14:37.32 spid31s     Starting up database 'practicesql'.
+2022-07-12 16:14:37.32 spid29s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2022-07-12 16:14:37.32 spid12s     Starting up database 'mssqlsystemresource'.
+2022-07-12 16:14:37.33 spid12s     The resource database build version is 15.00.4236. This is an informational message only. No user action is required.
+2022-07-12 16:14:37.33 spid26s     A self-generated certificate was successfully loaded for encryption.
+2022-07-12 16:14:37.34 spid26s     Server is listening on [ 'any' <ipv6> 1433].
+2022-07-12 16:14:37.35 spid26s     Server is listening on [ 'any' <ipv4> 1433].
+2022-07-12 16:14:37.35 Server      Server is listening on [ ::1 <ipv6> 1434].
+2022-07-12 16:14:37.35 Server      Server is listening on [ 127.0.0.1 <ipv4> 1434].
+2022-07-12 16:14:37.36 Server      Dedicated admin connection support was established for listening locally on port 1434.
+2022-07-12 16:14:37.36 spid26s     Server is listening on [ ::1 <ipv6> 1431].
+2022-07-12 16:14:37.36 spid26s     Server is listening on [ 127.0.0.1 <ipv4> 1431].
+2022-07-12 16:14:37.37 spid26s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
+2022-07-12 16:14:37.37 spid12s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2022-07-12 16:14:37.37 spid12s     Starting up database 'model'.
+2022-07-12 16:14:37.38 spid31s     Error: 17204, Severity: 16, State: 1.
+2022-07-12 16:14:37.38 spid31s     FCB::Open failed: Could not open file /var/opt/mssql/data/practicesql.mdf for file number 1.  OS error: 2(The system cannot find the file specified.).
+2022-07-12 16:14:37.39 spid31s     Error: 5120, Severity: 16, State: 101.
+2022-07-12 16:14:37.39 spid31s     Unable to open the physical file "/var/opt/mssql/data/practicesql.mdf". Operating system error 2: "2(The system cannot find the file specified.)".
+2022-07-12 16:14:37.45 spid31s     Error: 17207, Severity: 16, State: 1.
+2022-07-12 16:14:37.45 spid31s     FileMgr::StartLogFiles: Operating system error 2(The system cannot find the file specified.) occurred while creating or opening file '/var/opt/mssql/data/practicesql_log.ldf'. Diagnose and correct the operating system error, and retry the operation.
+2022-07-12 16:14:37.46 spid31s     File activation failure. The physical file name "/var/opt/mssql/data/practicesql_log.ldf" may be incorrect.
+2022-07-12 16:14:37.80 spid12s     Clearing tempdb database.
+2022-07-12 16:14:38.88 spid12s     [2]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2022-07-12 16:14:38.88 spid12s     Starting up database 'tempdb'.
+2022-07-12 16:14:42.21 spid12s     The tempdb database has 8 data file(s).
+2022-07-12 16:14:42.22 spid23s     The Service Broker endpoint is in disabled or stopped state.
+2022-07-12 16:14:42.22 spid23s     The Database Mirroring endpoint is in disabled or stopped state.
+2022-07-12 16:14:42.23 spid23s     Service Broker manager has started.
+2022-07-12 16:14:42.23 spid9s      Recovery is complete. This is an informational message only. No user action is required.
+2022-07-12 16:14:42.23 spid51      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
+2022-07-12 16:14:42.26 spid51      Using 'xplog70.dll' version '2019.150.4236' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
+2022-07-12 16:14:42.59 spid53      Attempting to load library 'xpsqlbot.dll' into memory. This is an informational message only. No user action is required.
+2022-07-12 16:14:42.59 spid53      Using 'xpsqlbot.dll' version '2019.150.4236' to execute extended stored procedure 'xp_qv'. This is an informational message only; no user action is required.
+2022-07-12 16:14:51.07 spid54      Attempting to load library 'xpstar.dll' into memory. This is an informational message only. No user action is required.
+2022-07-12 16:14:51.08 spid54      Using 'xpstar.dll' version '2019.150.4236' to execute extended stored procedure 'xp_instance_regread'. This is an informational message only; no user action is required.
+2022-07-12 16:15:08.26 spid51      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2022-07-12 16:15:08.26 spid51      Starting up database 'practicesql'.
+2022-07-12 16:15:08.57 spid51      Parallel redo is started for database 'practicesql' with worker pool size [4].
+2022-07-12 16:15:08.60 spid51      Parallel redo is shutdown for database 'practicesql' with worker pool size [4].
+2022-07-12 16:15:08.75 spid51      Setting database option COMPATIBILITY_LEVEL to 150 for database 'practicesql'.
+2022-07-12 16:15:08.75 spid51      Setting database option ANSI_NULL_DEFAULT to OFF for database 'practicesql'.
+2022-07-12 16:15:08.75 spid51      Setting database option ANSI_NULLS to OFF for database 'practicesql'.
+2022-07-12 16:15:08.76 spid51      Setting database option ANSI_PADDING to OFF for database 'practicesql'.
+2022-07-12 16:15:08.76 spid51      Setting database option ANSI_WARNINGS to OFF for database 'practicesql'.
+2022-07-12 16:15:08.76 spid51      Setting database option ARITHABORT to OFF for database 'practicesql'.
+2022-07-12 16:15:08.77 spid51      Setting database option AUTO_CLOSE to OFF for database 'practicesql'.
+2022-07-12 16:15:08.77 spid51      Setting database option AUTO_SHRINK to OFF for database 'practicesql'.
+2022-07-12 16:15:08.77 spid51      Setting database option INCREMENTAL to OFF for database 'practicesql'.
+2022-07-12 16:15:08.77 spid51      Setting database option AUTO_CREATE_STATISTICS to ON for database 'practicesql'.
+2022-07-12 16:15:08.78 spid51      Setting database option AUTO_UPDATE_STATISTICS to ON for database 'practicesql'.
+2022-07-12 16:15:08.78 spid51      Setting database option CURSOR_CLOSE_ON_COMMIT to OFF for database 'practicesql'.
+2022-07-12 16:15:08.78 spid51      Setting database option CURSOR_DEFAULT to GLOBAL for database 'practicesql'.
+2022-07-12 16:15:08.78 spid51      Setting database option CONCAT_NULL_YIELDS_NULL to OFF for database 'practicesql'.
+2022-07-12 16:15:08.79 spid51      Setting database option NUMERIC_ROUNDABORT to OFF for database 'practicesql'.
+2022-07-12 16:15:08.79 spid51      Setting database option QUOTED_IDENTIFIER to OFF for database 'practicesql'.
+2022-07-12 16:15:08.79 spid51      Setting database option RECURSIVE_TRIGGERS to OFF for database 'practicesql'.
+2022-07-12 16:15:08.79 spid51      Setting database option DISABLE_BROKER to ON for database 'practicesql'.
+2022-07-12 16:15:08.80 spid51      Setting database option AUTO_UPDATE_STATISTICS_ASYNC to OFF for database 'practicesql'.
+2022-07-12 16:15:08.81 spid51      Setting database option DATE_CORRELATION_OPTIMIZATION to OFF for database 'practicesql'.
+2022-07-12 16:15:08.81 spid51      Setting database option PARAMETERIZATION to SIMPLE for database 'practicesql'.
+2022-07-12 16:15:08.81 spid51      Setting database option READ_COMMITTED_SNAPSHOT to OFF for database 'practicesql'.
+2022-07-12 16:15:08.81 spid51      Setting database option READ_WRITE to ON for database 'practicesql'.
+2022-07-12 16:15:08.82 spid51      Setting database option RECOVERY to FULL for database 'practicesql'.
+2022-07-12 16:15:08.82 spid51      Setting database option MULTI_USER to ON for database 'practicesql'.
+2022-07-12 16:15:08.83 spid51      Setting database option PAGE_VERIFY to CHECKSUM for database 'practicesql'.
+2022-07-12 16:15:08.83 spid51      Setting database option target_recovery_time to 60 for database 'practicesql'.
+2022-07-12 16:15:08.83 spid51      Setting database option delayed_durability to disabled for database 'practicesql'.
